@@ -68,6 +68,90 @@
     font-style: normal; 
 }
 
+$bgColorBtn:  #FB8F1D;
 
 
+
+
+
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-style: 16px;
+    font-style: normal;
+    overflow-x: hidden;   //Изучить подробнее
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    &__header{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.header{
+    padding: 43px 0;
+    .logo{
+        max-width: 100%;
+        vertical-align: middle;  // Новое для меня значение
+        height: auto;
+        width: 41px;
+        height: 41px;
+        display: inline-block;
+    }
+    .nav{
+        margin-left: auto;
+        &__item{
+            display: flex;
+            list-style-type: none;
+        }
+        &__link{
+            font-family: 'inter', sans-serif;
+            font-weight: 400;
+            line-height: 19px;
+            margin-right: 34px;
+            text-decoration: none; 
+            color: #B8BECD;    
+        }
+        .link__active{
+            font-family: 'inter', sans-serif;
+            font-weight: 500;
+            line-height: 19px;
+            color:#202336;
+        }
+    }
+    .btn__wrap{
+        .btn{
+            font-family: 'inter', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            padding: 12px 36px;
+            min-width: 132px;
+            background-color: $bgColorBtn;
+            border: 1px solid $bgColorBtn;
+            border-radius: 8px;
+            color: #fff;
+            display: inline-block;  // Когда он действительно нужен. Уточнить.
+            text-align: center;
+            text-decoration: none;
+            &:nth-child(1){
+            background-color: transparent;
+            color: #FB8F1D;
+            }
+        }
+        .btn + .btn{
+            margin-left: 18px;
+        }
+    }
+}
 
