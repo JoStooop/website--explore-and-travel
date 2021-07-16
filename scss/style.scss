@@ -255,6 +255,67 @@ body{
     }
 } 
 
+.sections{
+    .action{
+        display: flex;
+        align-items: center;
+        padding: 317px 102px 131px 102px;
+        .action__image{
+            flex: 0 0 100%;                 //Эти значения нужны для того   
+            transform: translateX(-50%);    //чтобы при уменьшении экрана картинка 
+            text-align: right;              //не наезжала на текст,а просто сдевигаласо влево
+        }
+        .action__body{
+            padding: 92px 0px 111px 70px;
+            margin-left: 32px;              // Это относится и к заметке выше
+            flex: 0 0 50%;                  //..
+            transform: translateX(-100%);   //..
+            .section__title{
+               font-family: 'playfair display', sans-serif;
+               font-weight: 700; 
+               font-size: 36px;
+               line-height: 50px;
+               color: #000000;
+            }
+            .action__title{
+                margin-bottom: 20px;
+            }
+            .action__desc{
+                font-family: 'mulish', sans-serif;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 30px;
+                margin-bottom: 39px;
+                color: #7D7987;
+            }
+            .btn__sectionTwo{
+                font-family: 'inter', sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 12px 38px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
