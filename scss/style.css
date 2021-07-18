@@ -327,8 +327,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 50px;
-  margin-top: 158px;
+  padding: 0px 48px 0px 51px;
+  margin-top: 132px;
+  margin-bottom: 27px;
 }
 
 .section__post .section__head .section__title {
@@ -446,6 +447,81 @@ body {
   padding: 13px 42px;
 }
 
+.section__reviews {
+  margin-bottom: 282px;
+}
+
+.section__reviews .section__head {
+  margin: 29px 0 0 49px;
+}
+
+.section__reviews .section__head .section__title {
+  font-family: 'playfair display', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.section__reviews .reviews {
+  padding: 0 50px;
+}
+
+.section__reviews .reviews .review__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__reviews .reviews .review__item .review__item__body {
+  margin-top: 145px;
+  width: 50%;
+}
+
+.section__reviews .reviews .review__item .review__item__body .review__item__star__rating {
+  margin-bottom: 29px;
+}
+
+.section__reviews .reviews .review__item .review__item__body .review__item__text {
+  font-family: 'mulish', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 50px;
+  padding-right: 110px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.section__reviews .reviews .review__item .review__item__body .review__item__name {
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+}
+
+.section__reviews .reviews .review__item .review__item__body .review__item__position {
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.section__reviews .reviews .review__item .review__item__img {
+  width: 384px;
+  margin-left: 73px;
+  margin-top: 63px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section__reviews .reviews .review__item .review__item__img .review__item__img__inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.star__rating img {
+  margin-right: 11px;
+}
+
 .posts .post__stories {
   width: 263px;
   margin: 0 12.5px;
@@ -466,10 +542,10 @@ body {
 }
 
 .posts .post__stories .post__stories__img img {
-  top: 0;
+  top: 29px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 88%;
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -498,7 +574,7 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 28px;
-  margin-top: auto;
+  margin-top: 23px;
   text-decoration: none;
   color: #FB8F1D;
 }
