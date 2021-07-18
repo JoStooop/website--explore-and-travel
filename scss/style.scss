@@ -298,12 +298,89 @@ body{
     }
 }
 
+.section__post{
+    margin-top: 50px;
+    .section__head{
+        display: flex;
+        align-items: center;
+        padding: 0 50px;
+        margin-top: 158px;
+        .section__title{
+            font-family: 'playfair display';
+            font-weight: 700;
+            font-size: 36px;
+            color: #000000;
+        }
+        .view__all{
+            font-family: 'inter', sans-serif;
+            font-weight: 600;
+            margin-top: 12px;
+            display: inline-block;
+            position: relative;
+            font-size: 17px;
+            text-decoration: none;
+            color: #FB8F1D;
+            &::after{
+                content: '';
+                width: 6px;
+                height: 10px;
+                margin-left: 11px;
+                display: inline-block;
+                background-image: url(../img/arrow_post_02.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: 50% 50%;
+            }
+        }
+
+    }
+    .posts{
+        padding: 0 50px;
+        display: flex;
+        margin: 0 -12.5px;
+        .post{
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 58px 12.5px 0;
+           .post__body{
+               bottom: 3px;
+               left: -1px;
+               position: absolute;
+               width: 46%;
+               border-radius: 0 6px 0 0;
+               padding-top: 15px;
+               padding-right: 22px;
+               background-color: #fff;
+              .post__title{
+                  font-family: 'inter', sans-serif;
+                  font-weight: 600;
+                  font-size: 17px;
+                  color: #042521;
+              }
+              .post__subtitle{
+                 font-family: 'inter', sans-serif;
+                 font-weight: 500;
+                 font-size: 17px;
+                 color: #80918E; 
+                 line-height: 24px;
+              } 
+           } 
+        }
+    }
+}
+.section__head .view__all{
+    margin-left: auto;
+}
+
 .action__revers{
     .action__bodyTwo{
-        transform: translateX(0%);
+        transform: translate(-53px, -57px);
     }
     .action__imageTwo{
-        transform: translateX(0%); 
+        transform: translate(60px, -84px); 
     }
     .section__title{
         font-family: 'playfair display', sans-serif;
@@ -327,7 +404,7 @@ body{
         font-family: 'inter', sans-serif;
         font-weight: 600;
         font-size: 16px;
-        padding: 12px 38px;
+        padding: 13px 42px;
     }
 }
 
