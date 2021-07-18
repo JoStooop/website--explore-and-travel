@@ -408,8 +408,55 @@ body{
     }
 }
 
-
-
+.posts{
+    .post__stories{
+        width: 263px;
+        margin: 0 12.5px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        .post__stories__img{
+            padding-top: 100%;
+            margin-bottom: 13px;
+            position: relative;
+            & img{
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;   //Новое для меня значение. 
+                position: absolute;
+                display: inline-block;
+            }
+        }
+        .post__stories__body{
+            .post__stories__title{
+                font-family: 'inter', sans-serif;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 30px;
+                margin-bottom: 13px;
+                color: #000000;
+            }
+            .post__stories__subtitle{
+                font-family: 'inter', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 26px;
+                color: #7D7987;
+            }
+        }
+    }
+}
+.post__stories__link{
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: auto;
+    text-decoration: none;
+    color: $bgColorBtn;
+}
 
 
 
