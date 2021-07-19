@@ -578,4 +578,106 @@ body {
   text-decoration: none;
   color: #FB8F1D;
 }
+
+.footer {
+  margin-top: 270px;
+  padding-top: 76px;
+  padding-bottom: 30px;
+  color: #848484;
+  background-color: #F9F9FB;
+}
+
+.footer .footer__top {
+  padding-bottom: 77px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.footer .footer__top .footer__row {
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  -ms-grid-columns: minmax(270px, 500px) (minmax(min-content, 265px))[2] auto;
+      grid-template-columns: minmax(270px, 500px) repeat(2, minmax(-webkit-min-content, 265px)) auto;
+      grid-template-columns: minmax(270px, 500px) repeat(2, minmax(min-content, 265px)) auto;
+}
+
+.footer .footer__top .footer__row .footer__col {
+  padding: 8px 0 0 12px;
+}
+
+.footer .footer__top .footer__row .footer__col:nth-child(1) {
+  padding: 0;
+}
+
+.footer .footer__top .footer__row .footer__col .footer__logo {
+  margin-bottom: 26px;
+  display: inline-block;
+}
+
+.footer .footer__top .footer__row .footer__col .footer__text {
+  margin-bottom: 55px;
+  font-family: 'mulish', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer .footer__top .footer__row .footer__col .footer__text:last-child {
+  margin-bottom: 0;
+}
+
+.footer .footer__top .footer__row .footer__menu .f__menu__title {
+  font-family: 'mulish', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.footer .footer__top .footer__row .footer__menu .f__menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .footer__top .footer__row .footer__menu .f__menu__list .f__menu__item {
+  margin-bottom: 15px;
+}
+
+.footer .footer__top .footer__row .footer__menu .f__menu__list .f__menu__item a {
+  font-family: 'mulish', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer__icons {
+  padding: 30px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 35px;
+          column-gap: 35px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-grid-columns: (minmax(20px, min-content))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20px, -webkit-min-content));
+      grid-template-columns: repeat(auto-fit, minmax(20px, min-content));
+}
+
+.footer__icons a {
+  display: inline-block;
+}
+
+.footer__icons a:hover svg path {
+  fill: #FB8F1D;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 /*# sourceMappingURL=style.css.map */
