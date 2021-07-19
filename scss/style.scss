@@ -523,8 +523,82 @@ body{
     color: $bgColorBtn;
 }
 
-
-
+.footer{
+    margin-top: 270px;
+    padding-top: 76px;
+    padding-bottom: 30px;
+    color: #848484;
+    background-color: #F9F9FB;
+    .footer__top{
+        padding-bottom: 77px;
+        border-bottom: 1px solid #C4C4C4;
+        .footer__row{
+            display: grid;
+            column-gap: 15px;
+            grid-template-columns: minmax(270px, 500px) repeat(2, minmax(min-content, 265px)) auto;  // Как это работает не понял, вернуться к этому значению и пересмотреть все.
+            .footer__col{
+                padding: 8px 0 0 12px;
+                &:nth-child(1){
+                    padding: 0;
+                }
+                .footer__logo{
+                    margin-bottom: 26px;
+                    display: inline-block;
+                }
+                .footer__text{
+                    margin-bottom: 55px;
+                    font-family: 'mulish', sans-serif;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 28px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .footer__menu{
+                .f__menu__title{
+                    font-family: 'mulish', sans-serif;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-bottom: 25px;
+                    color: #000000;
+                }
+                .f__menu__list{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    .f__menu__item{
+                        margin-bottom: 15px;
+                        & a{
+                            font-family: 'mulish', sans-serif;
+                            font-weight: 300;
+                            font-size: 18px;
+                            color: #848484;
+                            display: inline-block;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer__icons{
+    padding: 30px 0;
+    justify-content: center;
+    display: grid;
+    column-gap: 35px;
+    align-items: end;
+    grid-template-columns: repeat(auto-fit, minmax(20px, min-content));
+    & a{
+        display: inline-block;
+        &:hover svg path{
+            fill: #FB8F1D;
+            transition: 0.3s;
+        }
+    }
+}
 
 
 
