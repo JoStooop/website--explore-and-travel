@@ -8,7 +8,7 @@ Explore and Travel - спланируйте свое идеальное путе
 
 ## Distribute
 
-- [Открыть сайт](https://jostooop.github.io/website--1/#)
+- [Открыть сайт](https://jostooop.github.io/website--explore-and-travel/)
 
 
 ## Developers
