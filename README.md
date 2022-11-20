@@ -10,6 +10,13 @@
 
 Explore and Travel - спланируйте свое идеальное путешествие с советами экспертов и опытных путешественников.
 
+## Основной стек технологий
+
+![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=html5&logoColor=CC0000)
+![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=css3&logoColor=097CDB)
+![SASS](https://img.shields.io/badge/-SASS-090909?style=for-the-badge&logo=SASS&logoColor=B4068E)
+![GIT](https://img.shields.io/badge/-GIT-090909?style=for-the-badge&logo=GIT&logoColor=CC0000)
+
 ## Distribute
 
 - [Открыть сайт](https://jostooop.github.io/website--explore-and-travel/)
