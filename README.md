@@ -1,26 +1,24 @@
-<p align="center">
+<div align="center">
       <img src="img/logo.svg" width="150" height="150">
-</p>
+        <p>Explore and Travel - Plan Your Perfect Journey with Expert Tips and Experienced Travelers.</p>
+</div>
 
-<p align="left">
-   <img src="https://img.shields.io/badge/Status-%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BF%D1%80%D0%B8%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B0-red" alt="status">
-</p>
+## Website preview:
+<details><summary><b>Show screenshots</b></summary>
 
-## About
+![screen--jostooop--website-explore-and-travel](readme-images/screen--jostooop--website-explore-and-travel.png)
+</details>
 
-Explore and Travel - спланируйте свое идеальное путешествие с советами экспертов и опытных путешественников.
+## Details:
+Layout: [Open](https://www.figma.com/file/ZuJ4nqqunKc2VUiF6bnFyK/1-Var?type=design&node-id=0-1&mode=design&t=VRER5uM90FV24qfY-0)
 
-## Distribute
+## Stack:
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-- [Открыть сайт](https://jostooop.github.io/website--explore-and-travel/)
+## Deploy
+Website link: [Explore and travel](https://jostooop.github.io/website--explore-and-travel/)
 
-## Основной стек технологий
-
-![HTML](https://img.shields.io/badge/-HTML-090909?style=for-the-badge&logo=html5&logoColor=CC0000)
-![CSS](https://img.shields.io/badge/-CSS-090909?style=for-the-badge&logo=css3&logoColor=097CDB)
-![SASS](https://img.shields.io/badge/-SASS-090909?style=for-the-badge&logo=SASS&logoColor=B4068E)
-![GIT](https://img.shields.io/badge/-GIT-090909?style=for-the-badge&logo=GIT&logoColor=CC0000)
-
-## Developers
-
+## Developers:
 - [JoStooop](https://github.com/JoStooop)
